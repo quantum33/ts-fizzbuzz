@@ -1,4 +1,5 @@
-const fizzBuzz = require('./main')
+// const fizzBuzz = require('./main')
+const fizzBuzz = require('./runner/runner')
 
 describe('FizzBuzz',()=>{
   it('should return one if receive one', () => {
