@@ -1,4 +1,4 @@
-export function fizzBuzz2(i: number): string | number {
+export function fizzBuzz(i: number): string | number {
 
   const isFizz = new NamedFunc("fizz", (i: number) => i % 3 == 0)
   const isBuzz = new NamedFunc("buzz", (i: number) => i % 5 == 0)
@@ -38,4 +38,4 @@ class Runner {
   }
 }
 
-module.exports = fizzBuzz2
+module.exports = fizzBuzz
