@@ -34,3 +34,21 @@ A "named function" is a basic structure with two properties:
 }
 ```
 
+## build
+```bash
+npx tsc
+```
+```dist``` directory will contain the output js files
+
+## run test
+```bash
+npm test
+```
+
+Take a look at the top of the ```main.spec.ts``` file to select the implementation to test:
+```ts
+// const fizzBuzz = require("../dist/simple");
+const fizzBuzz = require('../dist/runner')
+```
+## credits
+```main.spec.ts``` taken (and adapted) from https://github.com/Soniakeat/TDD_FizzBuzz-kata/blob/master/src/tests/fizzBuzz.test.js
