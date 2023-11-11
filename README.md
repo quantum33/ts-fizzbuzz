@@ -5,7 +5,8 @@ basic implementation
 
 ## runner implementation
 create a runner of "named function"
-a "named function" is a basic structure with two properties:
+
+A "named function" is a basic structure with two properties:
 - a value ("fizz", "buzz", "fizzbuzz" or self number value)
 - a predicate to determine if value should be returned or not
 ```json
