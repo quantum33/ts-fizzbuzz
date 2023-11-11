@@ -1,10 +1,10 @@
 # Fizz buzz kata
 
-## simple
-basic implementation
+## "simple"
+"simple" is a basic implementation
 
-## runner implementation
-create a runner of "named function"
+## "runner" implementation
+Create a runner of "named function"
 
 A "named function" is a basic structure with two properties:
 - a value ("fizz", "buzz", "fizzbuzz" or self number value)
