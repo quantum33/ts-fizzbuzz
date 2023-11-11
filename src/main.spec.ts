@@ -1,5 +1,5 @@
-// const fizzBuzz = require("./simple");
-const fizzBuzz = require('./runner/runner')
+// const fizzBuzz = require("../dist/simple");
+const fizzBuzz = require('../dist/runner')
 
 describe("FizzBuzz", () => {
   it("should return one if receive one", () => {
